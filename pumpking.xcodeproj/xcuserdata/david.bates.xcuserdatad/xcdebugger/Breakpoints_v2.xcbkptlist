@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "066DA393-BAD1-47CD-911B-06C131EC78B7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA4EE189-1B28-4033-AA16-5852F44FF704"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/pumpkingApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BA4EE189-1B28-4033-AA16-5852F44FF704 - f720a5f7527603f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; pumpking.ContentView in pumpking.pumpkingApp.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/pumpkingApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BA4EE189-1B28-4033-AA16-5852F44FF704 - f720a5f7527603f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; pumpking.ContentView in pumpking.pumpkingApp.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/pumpkingApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "788A5E44-FE94-4E7D-AF3D-3F88DE515A3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/IdleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "sendSpacebarKeystroke()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD95B296-7CF6-413A-972B-206C441C847B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/IdleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AD95B296-7CF6-413A-972B-206C441C847B - b654853346f5699b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "AD95B296-7CF6-413A-972B-206C441C847B - b654853346f569ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BBCCBD4-8E74-4810-989A-515CA61305ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/IdleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5BBCCBD4-8E74-4810-989A-515CA61305ED - 2a0fdfd32ae3cb21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "5BBCCBD4-8E74-4810-989A-515CA61305ED - b654853346f569d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5BBCCBD4-8E74-4810-989A-515CA61305ED - b654853346f569d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "5BBCCBD4-8E74-4810-989A-515CA61305ED - b654853346f569f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pumpking.IdleView.body.getter : some"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/IdleView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "127A75C9-A365-41E7-947E-156A25665AE2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/IdleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F71D9A9-7E4D-45D9-9CAE-1EC9D606FFAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/PlaybackManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "play(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F71D9A9-7E4D-45D9-9CAE-1EC9D606FFAA - 64ce4160f4b2857d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pumpking.PlaybackManager.play(url: Foundation.URL) -&gt; ()"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/PlaybackManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "2F71D9A9-7E4D-45D9-9CAE-1EC9D606FFAA - 64ce4160f4b2857d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pumpking.PlaybackManager.play(url: Foundation.URL) -&gt; ()"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/PlaybackManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "794198CA-A09F-4A5C-992D-751375A9B369"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/AudioRecorder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getAppSupportDirectory()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "794198CA-A09F-4A5C-992D-751375A9B369 - 58544f2f455d80ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pumpking.AudioRecorder.getAppSupportDirectory() -&gt; Foundation.URL"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/AudioRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "794198CA-A09F-4A5C-992D-751375A9B369 - 58544f2f455d8198"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pumpking.AudioRecorder.getAppSupportDirectory() -&gt; Foundation.URL"
+                  moduleName = "pumpking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/david.bates/Projects/pumpKing-mac/pumpking/pumpking/AudioRecorder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66EEFDCC-CED2-458A-9317-F419A4E454C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/ActiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "handleRecordedAudio(fileURL:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB9419A1-BC21-4438-B11D-685A6E39A66A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/ActiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1123278F-85DF-4B67-A35C-59393CAF51F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pumpking/ActiveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

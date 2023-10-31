@@ -7,19 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62D17302AD3394600DAA43A /* PlaybackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D172F2AD3394600DAA43A /* PlaybackManager.swift */; };
+		C62D173A2AD33EA100DAA43A /* intro_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C62D17382AD33E9300DAA43A /* intro_01.mp3 */; };
+		C62D173B2AD33EA400DAA43A /* intro_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C62D17372AD33E9300DAA43A /* intro_02.mp3 */; };
+		C62D173C2AD33EA700DAA43A /* intro_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C62D17392AD33E9300DAA43A /* intro_03.mp3 */; };
+		C62D173E2AD3421000DAA43A /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D173D2AD3421000DAA43A /* AudioRecorder.swift */; };
+		C62D17462AD3B40100DAA43A /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D17452AD3B40100DAA43A /* OpenAI.swift */; };
+		C63F3BCE2AD458B700138EC0 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = C63F3BCD2AD458B700138EC0 /* Starscream */; };
+		C63F3BD02AD458DB00138EC0 /* VoiceSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F3BCF2AD458DB00138EC0 /* VoiceSynthesizer.swift */; };
+		C6B307132AF04DF9008D5B9E /* PreferencesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B307122AF04DF9008D5B9E /* PreferencesData.swift */; };
+		C6B307152AF04E84008D5B9E /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B307142AF04E84008D5B9E /* PreferencesView.swift */; };
 		C6C8FED62AD1FCB200ECF79C /* pumpkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8FED52AD1FCB200ECF79C /* pumpkingApp.swift */; };
 		C6C8FED82AD1FCB200ECF79C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8FED72AD1FCB200ECF79C /* ContentView.swift */; };
 		C6C8FEDA2AD1FCB300ECF79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C8FED92AD1FCB300ECF79C /* Assets.xcassets */; };
 		C6C8FEDD2AD1FCB300ECF79C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C8FEDC2AD1FCB300ECF79C /* Preview Assets.xcassets */; };
+		C6C8FEE52AD22B3800ECF79C /* IdleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8FEE42AD22B3800ECF79C /* IdleView.swift */; };
+		C6C8FEE72AD22BA900ECF79C /* ActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8FEE62AD22BA900ECF79C /* ActiveView.swift */; };
+		C6C8FEE92AD22D2700ECF79C /* keyPressHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C8FEE82AD22D2700ECF79C /* keyPressHandler.swift */; };
+		C6E8C3D22AE4A03D00FADF82 /* wait_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E8C3CD2AE4A03D00FADF82 /* wait_01.mp3 */; };
+		C6E8C3D32AE4A03D00FADF82 /* wait_04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E8C3CE2AE4A03D00FADF82 /* wait_04.mp3 */; };
+		C6E8C3D42AE4A03D00FADF82 /* wait_02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E8C3CF2AE4A03D00FADF82 /* wait_02.mp3 */; };
+		C6E8C3D52AE4A03D00FADF82 /* wait_03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E8C3D02AE4A03D00FADF82 /* wait_03.mp3 */; };
+		C6E8C3D62AE4A03D00FADF82 /* wait_05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6E8C3D12AE4A03D00FADF82 /* wait_05.mp3 */; };
+		C6E8C3D82AEA06C700FADF82 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8C3D72AEA06C700FADF82 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C62D172F2AD3394600DAA43A /* PlaybackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackManager.swift; sourceTree = "<group>"; };
+		C62D17372AD33E9300DAA43A /* intro_02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_02.mp3; sourceTree = "<group>"; };
+		C62D17382AD33E9300DAA43A /* intro_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_01.mp3; sourceTree = "<group>"; };
+		C62D17392AD33E9300DAA43A /* intro_03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_03.mp3; sourceTree = "<group>"; };
+		C62D173D2AD3421000DAA43A /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		C62D17452AD3B40100DAA43A /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		C63F3BCF2AD458DB00138EC0 /* VoiceSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSynthesizer.swift; sourceTree = "<group>"; };
+		C6B307122AF04DF9008D5B9E /* PreferencesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesData.swift; sourceTree = "<group>"; };
+		C6B307142AF04E84008D5B9E /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		C6C8FED22AD1FCB200ECF79C /* pumpking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pumpking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C8FED52AD1FCB200ECF79C /* pumpkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pumpkingApp.swift; sourceTree = "<group>"; };
 		C6C8FED72AD1FCB200ECF79C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6C8FED92AD1FCB300ECF79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6C8FEDC2AD1FCB300ECF79C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6C8FEDE2AD1FCB300ECF79C /* pumpking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pumpking.entitlements; sourceTree = "<group>"; };
+		C6C8FEE42AD22B3800ECF79C /* IdleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleView.swift; sourceTree = "<group>"; };
+		C6C8FEE62AD22BA900ECF79C /* ActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveView.swift; sourceTree = "<group>"; };
+		C6C8FEE82AD22D2700ECF79C /* keyPressHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyPressHandler.swift; sourceTree = "<group>"; };
+		C6E8C3CD2AE4A03D00FADF82 /* wait_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wait_01.mp3; sourceTree = "<group>"; };
+		C6E8C3CE2AE4A03D00FADF82 /* wait_04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wait_04.mp3; sourceTree = "<group>"; };
+		C6E8C3CF2AE4A03D00FADF82 /* wait_02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wait_02.mp3; sourceTree = "<group>"; };
+		C6E8C3D02AE4A03D00FADF82 /* wait_03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wait_03.mp3; sourceTree = "<group>"; };
+		C6E8C3D12AE4A03D00FADF82 /* wait_05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wait_05.mp3; sourceTree = "<group>"; };
+		C6E8C3D72AEA06C700FADF82 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63F3BCE2AD458B700138EC0 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +90,25 @@
 		C6C8FED42AD1FCB200ECF79C /* pumpking */ = {
 			isa = PBXGroup;
 			children = (
-				C6C8FED52AD1FCB200ECF79C /* pumpkingApp.swift */,
-				C6C8FED72AD1FCB200ECF79C /* ContentView.swift */,
-				C6C8FED92AD1FCB300ECF79C /* Assets.xcassets */,
+				C6B307122AF04DF9008D5B9E /* PreferencesData.swift */,
 				C6C8FEDE2AD1FCB300ECF79C /* pumpking.entitlements */,
+				C62D17382AD33E9300DAA43A /* intro_01.mp3 */,
+				C62D17372AD33E9300DAA43A /* intro_02.mp3 */,
+				C62D17392AD33E9300DAA43A /* intro_03.mp3 */,
+				C6C8FEE62AD22BA900ECF79C /* ActiveView.swift */,
+				C62D173D2AD3421000DAA43A /* AudioRecorder.swift */,
+				C6C8FED72AD1FCB200ECF79C /* ContentView.swift */,
+				C6E8C3D72AEA06C700FADF82 /* BLEManager.swift */,
+				C6C8FEE42AD22B3800ECF79C /* IdleView.swift */,
+				C6C8FEE82AD22D2700ECF79C /* keyPressHandler.swift */,
+				C62D17452AD3B40100DAA43A /* OpenAI.swift */,
+				C6E8C3CC2AE4A00C00FADF82 /* wait_sounds */,
+				C62D172F2AD3394600DAA43A /* PlaybackManager.swift */,
+				C6C8FED52AD1FCB200ECF79C /* pumpkingApp.swift */,
+				C6C8FED92AD1FCB300ECF79C /* Assets.xcassets */,
 				C6C8FEDB2AD1FCB300ECF79C /* Preview Content */,
+				C63F3BCF2AD458DB00138EC0 /* VoiceSynthesizer.swift */,
+				C6B307142AF04E84008D5B9E /* PreferencesView.swift */,
 			);
 			path = pumpking;
 			sourceTree = "<group>";
@@ -67,6 +119,18 @@
 				C6C8FEDC2AD1FCB300ECF79C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6E8C3CC2AE4A00C00FADF82 /* wait_sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8C3CD2AE4A03D00FADF82 /* wait_01.mp3 */,
+				C6E8C3CF2AE4A03D00FADF82 /* wait_02.mp3 */,
+				C6E8C3D02AE4A03D00FADF82 /* wait_03.mp3 */,
+				C6E8C3CE2AE4A03D00FADF82 /* wait_04.mp3 */,
+				C6E8C3D12AE4A03D00FADF82 /* wait_05.mp3 */,
+			);
+			path = wait_sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +149,9 @@
 			dependencies = (
 			);
 			name = pumpking;
+			packageProductDependencies = (
+				C63F3BCD2AD458B700138EC0 /* Starscream */,
+			);
 			productName = pumpking;
 			productReference = C6C8FED22AD1FCB200ECF79C /* pumpking.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +180,9 @@
 				Base,
 			);
 			mainGroup = C6C8FEC92AD1FCB200ECF79C;
+			packageReferences = (
+				C63F3BCC2AD458B700138EC0 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = C6C8FED32AD1FCB200ECF79C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +197,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E8C3D22AE4A03D00FADF82 /* wait_01.mp3 in Resources */,
 				C6C8FEDD2AD1FCB300ECF79C /* Preview Assets.xcassets in Resources */,
+				C6E8C3D32AE4A03D00FADF82 /* wait_04.mp3 in Resources */,
+				C6E8C3D62AE4A03D00FADF82 /* wait_05.mp3 in Resources */,
+				C6E8C3D52AE4A03D00FADF82 /* wait_03.mp3 in Resources */,
+				C62D173C2AD33EA700DAA43A /* intro_03.mp3 in Resources */,
 				C6C8FEDA2AD1FCB300ECF79C /* Assets.xcassets in Resources */,
+				C62D173A2AD33EA100DAA43A /* intro_01.mp3 in Resources */,
+				C62D173B2AD33EA400DAA43A /* intro_02.mp3 in Resources */,
+				C6E8C3D42AE4A03D00FADF82 /* wait_02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E8C3D82AEA06C700FADF82 /* BLEManager.swift in Sources */,
+				C6B307132AF04DF9008D5B9E /* PreferencesData.swift in Sources */,
 				C6C8FED82AD1FCB200ECF79C /* ContentView.swift in Sources */,
+				C62D173E2AD3421000DAA43A /* AudioRecorder.swift in Sources */,
 				C6C8FED62AD1FCB200ECF79C /* pumpkingApp.swift in Sources */,
+				C62D17302AD3394600DAA43A /* PlaybackManager.swift in Sources */,
+				C62D17462AD3B40100DAA43A /* OpenAI.swift in Sources */,
+				C6C8FEE72AD22BA900ECF79C /* ActiveView.swift in Sources */,
+				C6C8FEE52AD22B3800ECF79C /* IdleView.swift in Sources */,
+				C6C8FEE92AD22D2700ECF79C /* keyPressHandler.swift in Sources */,
+				C63F3BD02AD458DB00138EC0 /* VoiceSynthesizer.swift in Sources */,
+				C6B307152AF04E84008D5B9E /* PreferencesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,13 +367,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to access for human detector";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth to scan and connect to human detector";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "To save audio recordings and transcripts";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need this to record the users question";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozmo.pumpking;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.magician.pumpking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,13 +398,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need to access for human detector";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth to scan and connect to human detector";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "To save audio recordings and transcripts";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need this to record the users question";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ozmo.pumpking;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.magician.pumpking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C63F3BCC2AD458B700138EC0 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C63F3BCD2AD458B700138EC0 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C63F3BCC2AD458B700138EC0 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6C8FECA2AD1FCB200ECF79C /* Project object */;
 }
