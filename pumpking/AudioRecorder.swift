@@ -14,6 +14,8 @@ class AudioRecorder: ObservableObject {
     var lastLevelTime: Date?
     var levelTimer: Timer?
     let recordingStopped = PassthroughSubject<URL, Never>()
+    let preferences = PreferencesData()
+    
     
     func startRecording() {
         let audioFilename = getAppSupportDirectory().appendingPathComponent("recording.m4a")
@@ -62,7 +64,7 @@ class AudioRecorder: ObservableObject {
         let power = recorder.averagePower(forChannel: 0)
         print("Current audio level: \(power) dB")
         
-        if power < -30 {  // This threshold might need adjustment dpending on the microphone. 
+        if power < preferences.dbTrigger {  // This threshold might need adjustment dpending on the microphone. 
             lastLevelTime = Date()
         } else if Date().timeIntervalSince(lastLevelTime!) > 2 {  // 2 seconds of silence
             stopRecording()

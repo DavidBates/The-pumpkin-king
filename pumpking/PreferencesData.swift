@@ -21,6 +21,11 @@ class PreferencesData: ObservableObject {
             UserDefaults.standard.set(elevenLabsKey, forKey: "elevenLabsKey")
         }
     }
+    @Published var elevenLabsVoiceID: String {
+        didSet {
+            UserDefaults.standard.set(elevenLabsVoiceID, forKey: "elevenLabsVoiceID")
+        }
+    }
     @Published var dbTrigger: Double {
             didSet {
                 UserDefaults.standard.set(dbTrigger, forKey: "dbTrigger")
@@ -30,6 +35,7 @@ class PreferencesData: ObservableObject {
     init() {
         self.openAIKey = UserDefaults.standard.string(forKey: "openAIKey") ?? ""
         self.elevenLabsKey = UserDefaults.standard.string(forKey: "elevenLabsKey") ?? ""
+        self.elevenLabsVoiceID = UserDefaults.standard.string(forKey: "elevenLabsVoiceID") ?? ""
         self.dbTrigger = UserDefaults.standard.double(forKey: "dbTrigger")
     }
 }

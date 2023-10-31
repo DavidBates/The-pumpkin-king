@@ -10,8 +10,8 @@ import Combine
 
 class VoiceSynthesizer: ObservableObject {
     private let baseURL = "https://api.elevenlabs.io/v1/text-to-speech/"
-    private let voiceID = "4viZvuAECqq62kJy6eno"
     private let modelID = "eleven_multilingual_v2"
+    private let voiceID: String
     private let apiKey: String
     let preferences = PreferencesData()
     
@@ -21,7 +21,11 @@ class VoiceSynthesizer: ObservableObject {
         if preferences.elevenLabsKey.isEmpty {
             fatalError("API Key not found!")
         }
+        if preferences.elevenLabsVoiceID.isEmpty {
+            fatalError("VoiceID not found!")
+        }
         self.apiKey = preferences.elevenLabsKey
+        self.voiceID = preferences.elevenLabsVoiceID
     }
     
     func synthesize(text: String) {

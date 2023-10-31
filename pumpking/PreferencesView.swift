@@ -13,7 +13,8 @@ struct PreferencesView: View {
     var body: some View {
         Form {
             TextField("OpenAI API Key", text: $preferences.openAIKey)
-            TextField("Eleven Labs API Key", text: $preferences.openAIKey)
+            TextField("Eleven Labs API Key", text: $preferences.elevenLabsKey)
+            TextField("Eleven Labs VoiceID", text: $preferences.elevenLabsVoiceID)
             Slider(value: $preferences.dbTrigger, in: -80...0, step: 1) // Slider ranging from -80 to 0
                             .padding(.top, 10)
                         Text("dB Trigger: \(preferences.dbTrigger, specifier: "%.0f") dB")
