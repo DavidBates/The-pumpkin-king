@@ -43,7 +43,7 @@ The Pumpkin King is a unique combination of software and hardware that detects h
 ### Hardware (Arduino)
 
 1. Setup your Arduino board This project assumes [HiLetgo 0.96" ESP32 OLED (Amazon Non-Affiliate Link)](https://www.amazon.com/gp/product/B072HBW53G).
-2. Connect the required sensors and components [Tutorial for Photoresistor](https://www.instructables.com/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/).
+2. Connect the required sensors and components [Tutorial for Photoresistor](https://www.instructables.com/How-to-use-a-photoresistor-or-photocell-Arduino-Tu/), [Laser Diode (Amazon Non-Affiliate Link](https://www.amazon.com/HiLetgo-KY-008-Transmitter-Module-Arduino/dp/B01I1J12JO), [Photoresistor (Amazon Non-Affiliate Link)](https://www.amazon.com/HiLetgo-Dependent-Photoresistor-Photoconductive-Resistance/dp/B00N1ZJUN4).
 3. Open the Arduino IDE and load the provided `.ino` file. (Configure the boards and libraries needed) 
 4. Upload the code to your Arduino board.
 
